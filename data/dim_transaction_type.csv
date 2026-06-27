@@ -1,0 +1,16 @@
+transaction_type_id,type_name,channel,is_domestic,typical_fee_gbp
+1,Purchase,Mobile App,TRUE,0
+2,Purchase,Web Browser,TRUE,0
+3,Transfer - Outbound,Mobile App,TRUE,0
+4,Transfer - Outbound,Web Browser,TRUE,0
+5,Transfer - International,Mobile App,FALSE,2.5
+6,Transfer - International,Web Browser,FALSE,2.5
+7,ATM Withdrawal,ATM Network,TRUE,0
+8,ATM Withdrawal,ATM Network,FALSE,1.5
+9,Direct Debit,Automated,TRUE,0
+10,Standing Order,Automated,TRUE,0
+11,Salary Credit,Automated,TRUE,0
+12,Card Refund,Mobile App,TRUE,0
+13,Crypto Purchase,Mobile App,TRUE,1
+14,Savings Pot Transfer,Mobile App,TRUE,0
+15,Loan Repayment,Automated,TRUE,0
