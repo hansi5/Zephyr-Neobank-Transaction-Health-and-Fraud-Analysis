@@ -4,7 +4,7 @@ An end-to-end analytics project examining H1 2026 transaction health for **Zephy
 
 ---
 
-## 📌 Overview
+## Overview
 
 Zephyr Bank operates entirely digitally — every transaction flows through its mobile app, web browser, or automated payment rails. For its 2026 H1 review, leadership needed one consolidated view answering very different questions for four different teams:
 
@@ -17,7 +17,7 @@ This project answers all four from a single underlying data model.
 
 ---
 
-## 🏦 Dataset
+## Dataset
 
 The data model follows a standard star schema: three dimension tables joined to one fact table.
 
@@ -32,7 +32,7 @@ The data model follows a standard star schema: three dimension tables joined to 
 
 ---
 
-## 🛠️ Tools & Process
+## Tools & Process
 
 | Stage | Tool |
 |---|---|
@@ -48,7 +48,7 @@ The data model follows a standard star schema: three dimension tables joined to 
 
 ---
 
-## 📊 Dashboard Structure
+## Dashboard Structure
 
 The report is organized as five pages, each with a distinct job:
 
@@ -60,7 +60,7 @@ The report is organized as five pages, each with a distinct job:
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 A few of the most significant, non-obvious results from the analysis:
 
@@ -73,33 +73,10 @@ A few of the most significant, non-obvious results from the analysis:
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 1. Open an immediate manual review of the single highest-exposure customer account.
 2. Correct the billing rule causing erroneous fee charges on declined, fee-free transaction types.
 3. Fix the international fee/FX-rate logic, starting with the highest-leakage transaction type.
 4. Shift fraud-screening priority from KYC status to behavioral signals — device type, transaction size, and region.
 
----
-
-## ▶️ How to View
-
-1. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-2. Open `bank.pbix`.
-3. Use the slicers and field-parameter buttons on each page to explore the data interactively — every chart and title updates dynamically based on the selected KPI lens.
-
----
-
-## ⚠️ Limitations & Notes
-
-- The dataset spans only 20 unique customers; segment- and region-level findings should be read as descriptive and indicative rather than statistically generalizable.
-- Several patterns in the data are fully deterministic (e.g., device type perfectly predicting transaction status) — a property of this specific synthetic dataset, not a claim about real-world banking behavior.
-
----
-
-## 👤 Author
-
-**Hansika Priya**
-Portfolio: [hansikapriya-portfolio.lovable.app](https://hansikapriya-portfolio.lovable.app)
-
-Built for the **Onyx Data DataDNA Challenge** — [#dataDNA](https://www.linkedin.com/company/onyxdata/)
